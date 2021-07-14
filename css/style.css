@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    /* background-image: url(../imagens/fundo-celular.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../imagens/fundo-celular.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 80px;
+    border-bottom: solid 8px #C54B3C;
+}
+
+.container-grid {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+}
+
+.icone-rede {
+    width: 40px;
+}
+
+.conteudo-banner {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto-banner {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lojas-app {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.topico{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.topico h3{
+    font-size: 25px;
+}
+
+.circulo{
+    background-color: #C54B3C;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.circulo i{
+    font-size: 20px;
+    color: white;
+}
+
+.secao-slogan{
+    background-color: #C54B3C;
+    height: 120px;
+    color: white;
+}
+
+.container-slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.secao-seehow{
+    background-color: #393b47;
+    color: white;
+    padding-top: 40px;
+}
+
+.secao-seehow h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: lighter;
+    height: 80px;
+}
+
+.conteudo-seehow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.esquerda{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 175px;
+}
+
+.titulo-seehow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.titulo-seehow i{
+    font-size: 40px;
+    color: #C54B3C;
+}
+
+.titulo-seehow h3{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.celular-seehow{
+    width: 30%;
+}
+
+.central{
+    background-color: #2B2E37;
+}
+
+/* Submit */
+
+.submit{
+    background-color: #C54B3C;
+    color: white;
+    padding: 40px 0;
+}
+
+.submit h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: lighter;
+    height: 80px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: none;
+}
+
+.conteudo-form input{
+    text-indent: 10px;
+}
+
+.conteudo-form textarea{
+    text-indent: 10px;
+}
+ 
+.form input:focus{
+    outline: none
+}
+
+.form textarea:focus{
+    outline: none
+}
+
+.conteudo-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.conteudo-form label{
+    margin-bottom: 3px;
+}
+
+
+.field{
+    width: 400px;
+    height: 30px;
+    border: none;
+}
+
+.message textarea{
+    width: 400px;
+    border: none;
+    resize: none;
+}
+
+.send{
+    background-color: #a72a1a;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.send:hover{
+    background-color: #3f0902;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+    height: 60px;
+    background-color: white;
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+}
+
+.conteudo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
